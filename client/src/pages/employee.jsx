@@ -5,7 +5,7 @@ export default function EmployeePage() {
   const [clockedIn, setClockedIn] = useState(false);
   const [currentTime, setCurrentTime] = useState(null);
   const [businessName, setBusinessName] = useState("");
-  const [clockinEmployee, { error }] = useMutation(CLOCKIN);
+  const [clockinEmployee] = useMutation(CLOCKIN);
 
   const handleInputChange = (e) => {
     setBusinessName(e);

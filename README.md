@@ -62,3 +62,16 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - Jason Charney
 - Joshua Norris
 - Tony Mai
+
+Deployment notes from Ellie off Linkedin
+Darn it, it looks like Manav's instructions on Slack have been deleted, but I know we have a Procfile (https://github.com/luksvrd/Rally/blob/main/Procfile) in the root and this tutorial may be helpful for deploying the server side to Heroku (https://medium.com/karolis-stulgys/deploy-client-and-server-code-to-heroku-from-a-single-git-repo-44c5b65da10a)
+
+For Netlify, I believe we had to change the base directory to /client or client, but I don't remember exactly. I can ask Lukas for some screenshots of this if it gives you trouble.
+
+Here's the additional things we added: in main.jsx, we added the Heroku server URL
+Comment image, no alternative text available
+
+(Img of code in main jsx)
+
+Then in the public folder under client, we added a file called \_redirects. This helps with client-side routing on Netlify (https://dev.to/chrisotto/netlify-client-side-routing-2iff)
+Comment image, no alternative text available
