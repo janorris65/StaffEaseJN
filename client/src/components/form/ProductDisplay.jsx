@@ -17,6 +17,7 @@ export function ProductDisplay() {
         <div className="description">
           <h3>Business Subscription</h3>
           <h5>$10.00</h5>
+          <h5>dummy CC 4242 4242 4242 4242 any Exp Date, any CVV</h5>
         </div>
       </div>
 
