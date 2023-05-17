@@ -17,9 +17,6 @@ const { port } = config;
 
 const app = express();
 // This is your Stripe CLI webhook secret for testing your endpoint locally.
-// const endpointSecret =
-//   "whsec_e1ce5c7f6ba02921201ee13e53293d324f2900c566aa2a686a921afc282e431f";
-
 // Our httpServer handles incoming requests to our Express app.
 // Below, we tell Apollo Server to "drain" this httpServer,
 // enabling our servers to shut down gracefully.

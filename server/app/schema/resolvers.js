@@ -8,7 +8,7 @@ import config from "../../config.js";
 const { skStripeKey } = config;
 const stripe = new Stripe(skStripeKey);
 
-const YOUR_DOMAIN = "http://localhost:5173";
+const YOUR_DOMAIN = "https://graceful-duckanoo-8813c2.netlify.app";
 
 const resolvers = {
   Query: {
